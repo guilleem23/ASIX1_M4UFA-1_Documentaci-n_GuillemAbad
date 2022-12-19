@@ -323,7 +323,9 @@ El relleno es el espacio dentro de un elemento, entre el contenido y el borde. S
 <br><br>
 En resumen, podemos ver que:
 <br>
-<img src="/C:/repositorios GIT/ASIX1_M4UFA-1_Documentaci-n_GuillemAbad/imagenes/css1.png"
+
+
+
 <br>
 <br><li>Margin (margen):
 <br> Representan el espacio que la separará de los elementos contiguos. 

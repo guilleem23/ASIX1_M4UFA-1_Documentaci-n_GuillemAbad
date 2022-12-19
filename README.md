@@ -293,7 +293,7 @@ Definiríamos la regla siguiente:
   <br>   color: red;
  <br>  }
 
-<h3>Margenes, bordes y relleno en CSS<h3>
+<h3>Margenes, bordes y relleno en CSS</h3>
 <br>
 <br>
 Los márgenes, bordes y relleno son características importantes en CSS que se pueden utilizar para controlar el espacio y el diseño de los elementos en una página web.

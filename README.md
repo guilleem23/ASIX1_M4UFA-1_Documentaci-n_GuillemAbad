@@ -293,6 +293,59 @@ Definiríamos la regla siguiente:
   <br>   color: red;
  <br>  }
 
+<h3>Margenes, bordes y relleno en CSS<h3>
+<br>
+<br>
+Los márgenes, bordes y relleno son características importantes en CSS que se pueden utilizar para controlar el espacio y el diseño de los elementos en una página web.
+<br>
+<br>
+Los márgenes son el espacio alrededor de un elemento. Pueden utilizarse para separar un elemento de otros elementos o del borde de la página. Los márgenes se pueden establecer con la propiedad "margin" y pueden tener diferentes valores para cada lado del elemento. Por ejemplo, para establecer un margen de 10 pixeles en todos los lados de un elemento, se puede utilizar la siguiente regla:
+<br>
+<br>elemento {
+<br>  margin: 10px;
+<br>}
+<br>
+<br>
+Los bordes son líneas que rodean un elemento y pueden utilizarse para separar un elemento de otros elementos o del fondo de la página.<br><br> Los bordes se pueden establecer con la propiedad "border" y pueden tener diferentes estilos, colores y anchuras.
+<br><br> Por ejemplo, para establecer un borde rojo de 5 pixeles de ancho con un estilo sólido, se puede utilizar la siguiente regla:
+<br>
+<br>
+<br>elemento {
+  <br>border: 5px solid red;
+<br>}
+<br>
+<br>
+El relleno es el espacio dentro de un elemento, entre el contenido y el borde. Se puede utilizar para controlar el espacio entre el contenido y el borde de un elemento.<br><br> El relleno se puede establecer con la propiedad "padding" y puede tener diferentes valores para cada lado del elemento. <br><br>Por ejemplo, para establecer un relleno de 10 pixeles en todos los lados de un elemento, se puede utilizar la siguiente regla:
+<br><br>
+<br>elemento {
+ <br> padding: 10px;
+<br>}
+<br><br>
+En resumen, podemos ver que:
+<br>
+<img src="/C:/repositorios GIT/ASIX1_M4UFA-1_Documentaci-n_GuillemAbad/imagenes/css1.png"
+<br>
+<br><li>Margin (margen):
+<br> Representan el espacio que la separará de los elementos contiguos. 
+<br>- margin-top (margen superior)
+<br>- margin-right (margen derecho)
+<br>- margin-bottom (margen inferior)
+<br>- margin-left (margen izquierdo)
+<br>
+<li>Border (bordes):
+<br> Representan el estilo que tendrán los bordes del elemento:
+<br>- border-top
+<br>- border-right
+ <br>- border-bottom 
+ <br>- border-left
+<br><li>Padding (relleno):
+<br>Es el espacio entre el borde del elemento y su contenido. 
+<br>
+Como en todas, se derivan otras 4 propiedades:
+<br>- padding-top
+<br>- padding-right
+ <br>- padding-bottom 
+<br>- padding-left
 
 
 

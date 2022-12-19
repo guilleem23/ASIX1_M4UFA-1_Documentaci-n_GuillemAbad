@@ -144,6 +144,25 @@ Por ejemplo, podemos ponerle título a este, donde pone <"title">. A continuaci�
 </li>
 <li>Para introducir una imagen, tendremos que escribir lo siguiente:<'img src="/ubicacióndelaimagen"'> </li>
 <li>Para hacer listas mediante números, tendremos que utilizar la herramiente <'ol'> y la herramienta anteriormente utilizada <'li'></li>
+<br>
+<br>
+En resumen del lenguaje de HTML, podemos decir que es un lenguaje de marcado que se utiliza para estructurar y dar formato a contenido en la World Wide Web. Estos son algunos de los elementos más básicos que se utilizan:
+<br>
+Elementos: cada pieza de contenido en un documento HTML se envuelve en un elemento. Los elementos tienen una etiqueta de apertura y una etiqueta de cierre, y el contenido se encuentra entre ellas. Por ejemplo, el elemento <'p'> se utiliza para crear un párrafo y se escribe así: <'p'>Contenido del párrafo<'/p'>.
+<br>
+Atributos: los elementos a menudo tienen atributos, que son pares de nombres y valores que proporcionan información adicional sobre el elemento. Por ejemplo, el elemento <'img'> se utiliza para insertar imágenes en una página y tiene un atributo "src" que indica la ubicación de la imagen. Una imagen se escribiría así: <'img src="imagen.jpg"'>.
+<br>
+Enlaces: el elemento <'a'> se utiliza para crear enlaces a otras páginas o recursos en la Web. Por ejemplo, <'a href="https://www.ejemplo.com"'>Enlace</'a'> crearía un enlace que dice "Enlace" y lleva al sitio web "https://www.ejemplo.com" cuando se hace clic.
+<br>
+Encabezados: los elementos <'h1'> a <'h6'> se utilizan para crear títulos y encabezados. El elemento <'h1'> se utiliza para el título principal y los elementos <'h2'> a <'h6'> se utilizan para los encabezados secundarios.
+<br>
+Listas: los elementos <'ul'> y <'ol'> se utilizan para crear listas no ordenadas y ordenadas, respectivamente. Cada elemento de la lista se envuelve en un elemento <'li'>.
+<br>
+Tablas: el elemento <'table'> se utiliza para crear tablas con filas y columnas. Las filas se envuelven en elementos <'tr'>' y las celdas se envuelven en elementos <'td'>.
+
+<br>
+
+
 <h2>FONT AWESOME</h2>
 <li>Para nosotros poder poner distintos iconos y demás en nuestra página HTML, utilizamos la siguiente web: <a href="https://fontawesome.com/"> Font Awesome.</a></li>
 <li>Entramos y nos registramos y seguimos los siguientes pasos:</li>
@@ -151,6 +170,117 @@ Por ejemplo, podemos ponerle título a este, donde pone <"title">. A continuaci�
 <li>Seguidamente, dentro de nuestro visual studio, introducimos lo anteriormente copiado exactamente donde queramos que se vea. (tiene que ser donde tú quieras pero donde pone "body" y no "head"</li>
 <li>Finalmente, para que se vea, vamos a nuestro perfil, le damos a "kits" y si tenemos un kit lo copiamos al portapapeles toda la url y sino, creamos un kit y hacemos el paso anterior.</li>
 <li>Entonces, lo anteriormente copiado al portapapeles, el cuál es el kit code de nuestro proyecto, lo pegamos en el Visual Studio pero <strong>DONDE PONE <'head'></strong>, si no no funcionará. El script este que hemos utilizado siempre es el mismo, por lo cual siempre lo podremos utilizar en nuestros futuros proyectos.</li></ol>
+
+<h2>CCS</H2>
+<br>
+CSS (Cascading Style Sheets, o Hojas de Estilo en Cascada) es un lenguaje utilizado para describir la presentación de documentos escritos en HTML y otros lenguajes de marcado. Algunos de los conceptos básicos de CSS incluyen:
+<br>
+Seleccionadores: los seleccionadores se utilizan para seleccionar elementos en un documento HTML para aplicar estilos. Por ejemplo, el seleccionador de etiqueta selecciona todos los elementos de un tipo específico, como p para seleccionar todos los párrafos en un documento. Los seleccionadores de clase y ID también se pueden utilizar para seleccionar elementos con una clase o ID específico.
+<br>
+Propiedades: las propiedades son características de los elementos que se pueden modificar con CSS. Por ejemplo, la propiedad "color" se utiliza para cambiar el color del texto de un elemento y la propiedad "font-size" se utiliza para cambiar el tamaño de la fuente.
+<br>
+Valores: cada propiedad tiene un conjunto de valores posibles que se pueden utilizar para modificar el aspecto de un elemento. Por ejemplo, el valor "red" se puede utilizar para cambiar el color del texto a rojo y el valor "12px" se puede utilizar para cambiar el tamaño de la fuente a 12 pixeles.
+<br>
+Reglas: una regla CSS consta de un seleccionador y un conjunto de declaraciones que especifican las propiedades y sus valores para ese seleccionador. Por ejemplo, la regla p {color: red; font-size: 12px;} cambiaría el color y el tamaño de la fuente de todos los párrafos a rojo y 12 pixeles, respectivamente.
+<br>
+Herencia: algunas propiedades se heredan de un elemento padre a sus elementos hijos. Por ejemplo, si se establece el color del texto de un elemento padre como rojo, todos sus elementos hijos también tendrán el texto en rojo a menos que se sobrescriba explícitamente con un valor diferente.
+<br>
+Diseño en cascada: el término "cascada" en CSS se refiere a cómo los estilos se aplican a un documento. Si hay varias reglas que aplican estilos a un elemento, la última regla en la cascada tiene prioridad sobre las anteriores.
+<br>
+Seguidamente, dentro de CSS también tenemos diferentes tipos de selectores, cada uno de los cuales corresponde con una parte diferente del etiquetado. Los tres más básicos son los siguientes:
+<br>
+<li>1) Selector de elementos. 
+<li>
+<br>Corresponde con todos los elementos de este nombre en la página. El siguiente ejemplo afectaría a TODOS los elementos <'a'> del documento HTML:
+<br>
+/* All <'a'> elements. */
+<br>a {
+<br>   color: red;
+<br>}
+<br>
+<li>2) Selector de clase.
+<li><br> Corresponde con todos los elementos que tengan el atributo class con el valor especificado. Por ejemplo el selector:
+<br>
+.example {
+ <br>  property: value;
+ <br>  property2: value2;
+<br>}
+
+<br>afectaría a los siguientes elementos HTML:
+
+<br><'p class="example"'>
+<br> <'li class="example"'>
+<br> <'div class="example"'>
+<br><li>3) Selector de id.<li>
+<br> Corresponde a todos los elementos HTML que tienen un atributo id con el valor especificado.
+<br>Por ejemplo el selector:
+<br>
+#example {
+<br>   property: value;
+ <br>  property2: value2;
+<br>}
+<br>
+afectaría al siguiente elemento HTML (puede haber más de uno con el mismo ID): <¡p id="example"¡>
+<br>
+Además de estos selectores, también disponemos de <strong>selectores avanzados <strong> que son los siguientes:
+<br>
+Selectores universales. Sirven para seleccionar todos los elementos de la página. En el  ejemplo, todos los elementos han de tener un borde solido negro de un pixel:
+<br>
+ <br>  * {
+ <br>        border: 1px solid #000000;
+ <br>  }
+<br>
+Selectores de atributos. Permiten seleccionar elementos en función de los atributos que contienen. En el ejemplo quedan afectados todos los elementos <'img'> con un atributo “alt”.
+  <br> 
+  <br> img[alt] {
+   <br>   border: 1px solid #000000;
+  <br> }
+<br>
+Es más útil si se especifica el valor del atributo:
+<br>
+
+   img[src="alert.gif"] {
+   <br>   border: 1px solid #000000;
+  <br> }
+<br>
+Selectores de hijos. Para seleccionar elementos concretos que son hijos DIRECTOS de otros elementos concretos. Por ejemplo, esta regla pone de color azul el texto de los elementos <'strong'> que son hijos de <'h3'> pero no el resto de elementos <'strong'>
+<br>
+<br>   h3>strong {
+  <br>    color: blue;
+ <br>  }
+<br>
+Selectores de descendientes. Similar al selector de hijos pero, a diferencia de ellos, que solo seleccionan elementos descendientes DIRECTOS, los selectores de descendientes seleccionan los elementos pertinentes EN CUALQUIER PUNTO de la jerarquía del elemento.
+<br>
+Selectores de hermanos adyacentes. Permiten seleccionar un elemento concreto que aparece DIRECTAMENTE DESPUÉS de otro elemento concreto al mismo nivel de la jerarquía del elemento. Por ejemplo si quisiéramos reducir el espacio vertical entre el <'h1'> y el primer <'h2'> pero no afectar al segundo <'h2'> en el código siguiente:
+<br>
+ <br>  <'h1'>Encabezado 1 <'/h1'>
+  <br> <'h2'>Encabezado 2 (hermano adyacente) <'/h2'>
+  <br> <'h2'>Encabezado 2 (hermano no adyacente) <'/h2'>
+<br>
+Definiríamos la regla siguiente:
+<br>
+ <br>  h1+h2 {
+  <br>    margin-top: -5mm;
+ <br>  }
+
+<br>
+Pseudoclases. Se utilizan para definir estilos, no para los elementos sino para los diversos estados de los elementos:
+<br>
+
+<br>:link: El estado normal por defecto de los enlaces. Tal y como se ven por primera vez.
+<br>:visited: Enlaces que ya se han visitado con el navegador que se está utilizando.
+<br>:focus: Enlaces (o campos de formularios, o cualquier otra cosa) que tienen en ese momento el cursor en su interior.
+<br>:hover: Enlaces que tienen en este momento el puntero del ratón sobre ellos.
+
+<br>
+Pseudoelementos. Como las pseudoclases no afectan a todo el elemento sino que permiten añadir estilos a UNA PARTE CONCRETA del documento. Por ejemplo, el pseudoelemento ::first-line selecciona solo la primera línea del elemento especificado por el selector.
+<br>
+   selector::pseudo-elemento { propiedad: valor; }
+<br>
+ <br>  /* Selecciona la primera línea de un <'p'> */
+ <br>  p::first-line {
+  <br>   color: red;
+ <br>  }
 
 
 

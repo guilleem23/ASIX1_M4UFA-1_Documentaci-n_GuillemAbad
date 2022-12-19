@@ -174,24 +174,25 @@ Tablas: el elemento <'table'> se utiliza para crear tablas con filas y columnas.
 <h2>CCS</H2>
 <br>
 CSS (Cascading Style Sheets, o Hojas de Estilo en Cascada) es un lenguaje utilizado para describir la presentación de documentos escritos en HTML y otros lenguajes de marcado. Algunos de los conceptos básicos de CSS incluyen:
-<br>
+<br><br>
 Seleccionadores: los seleccionadores se utilizan para seleccionar elementos en un documento HTML para aplicar estilos. Por ejemplo, el seleccionador de etiqueta selecciona todos los elementos de un tipo específico, como p para seleccionar todos los párrafos en un documento. Los seleccionadores de clase y ID también se pueden utilizar para seleccionar elementos con una clase o ID específico.
-<br>
+<br><br>
 Propiedades: las propiedades son características de los elementos que se pueden modificar con CSS. Por ejemplo, la propiedad "color" se utiliza para cambiar el color del texto de un elemento y la propiedad "font-size" se utiliza para cambiar el tamaño de la fuente.
-<br>
+<br><br>
 Valores: cada propiedad tiene un conjunto de valores posibles que se pueden utilizar para modificar el aspecto de un elemento. Por ejemplo, el valor "red" se puede utilizar para cambiar el color del texto a rojo y el valor "12px" se puede utilizar para cambiar el tamaño de la fuente a 12 pixeles.
-<br>
+<br><br>
 Reglas: una regla CSS consta de un seleccionador y un conjunto de declaraciones que especifican las propiedades y sus valores para ese seleccionador. Por ejemplo, la regla p {color: red; font-size: 12px;} cambiaría el color y el tamaño de la fuente de todos los párrafos a rojo y 12 pixeles, respectivamente.
-<br>
+<br><br>
 Herencia: algunas propiedades se heredan de un elemento padre a sus elementos hijos. Por ejemplo, si se establece el color del texto de un elemento padre como rojo, todos sus elementos hijos también tendrán el texto en rojo a menos que se sobrescriba explícitamente con un valor diferente.
-<br>
+<br><br>
 Diseño en cascada: el término "cascada" en CSS se refiere a cómo los estilos se aplican a un documento. Si hay varias reglas que aplican estilos a un elemento, la última regla en la cascada tiene prioridad sobre las anteriores.
-<br>
+<br><br>
 Seguidamente, dentro de CSS también tenemos diferentes tipos de selectores, cada uno de los cuales corresponde con una parte diferente del etiquetado. Los tres más básicos son los siguientes:
-<br>
+<br><br>
 <li>1) Selector de elementos. 
-<li>
+<br>
 <br>Corresponde con todos los elementos de este nombre en la página. El siguiente ejemplo afectaría a TODOS los elementos <'a'> del documento HTML:
+<br>
 <br>
 /* All <'a'> elements. */
 <br>a {
@@ -199,7 +200,7 @@ Seguidamente, dentro de CSS también tenemos diferentes tipos de selectores, cad
 <br>}
 <br>
 <li>2) Selector de clase.
-<li><br> Corresponde con todos los elementos que tengan el atributo class con el valor especificado. Por ejemplo el selector:
+<br> Corresponde con todos los elementos que tengan el atributo class con el valor especificado. Por ejemplo el selector:
 <br>
 .example {
  <br>  property: value;
@@ -211,7 +212,8 @@ Seguidamente, dentro de CSS también tenemos diferentes tipos de selectores, cad
 <br><'p class="example"'>
 <br> <'li class="example"'>
 <br> <'div class="example"'>
-<br><li>3) Selector de id.<li>
+<br><li>3) Selector de id.
+<br>
 <br> Corresponde a todos los elementos HTML que tienen un atributo id con el valor especificado.
 <br>Por ejemplo el selector:
 <br>
@@ -219,12 +221,16 @@ Seguidamente, dentro de CSS también tenemos diferentes tipos de selectores, cad
 <br>   property: value;
  <br>  property2: value2;
 <br>}
-<br>
+<br><br>
 afectaría al siguiente elemento HTML (puede haber más de uno con el mismo ID): <¡p id="example"¡>
 <br>
 Además de estos selectores, también disponemos de <strong>selectores avanzados <strong> que son los siguientes:
 <br>
-Selectores universales. Sirven para seleccionar todos los elementos de la página. En el  ejemplo, todos los elementos han de tener un borde solido negro de un pixel:
+<br>
+<li>
+Selectores universales.
+<br>
+<br> Sirven para seleccionar todos los elementos de la página. En el  ejemplo, todos los elementos han de tener un borde solido negro de un pixel:
 <br>
  <br>  * {
  <br>        border: 1px solid #000000;
@@ -243,15 +249,18 @@ Es más útil si se especifica el valor del atributo:
    <br>   border: 1px solid #000000;
   <br> }
 <br>
-Selectores de hijos. Para seleccionar elementos concretos que son hijos DIRECTOS de otros elementos concretos. Por ejemplo, esta regla pone de color azul el texto de los elementos <'strong'> que son hijos de <'h3'> pero no el resto de elementos <'strong'>
+<li>Selectores de hijos. 
+<br>Para seleccionar elementos concretos que son hijos DIRECTOS de otros elementos concretos. Por ejemplo, esta regla pone de color azul el texto de los elementos <'strong'> que son hijos de <'h3'> pero no el resto de elementos <'strong'>
 <br>
 <br>   h3>strong {
   <br>    color: blue;
  <br>  }
 <br>
-Selectores de descendientes. Similar al selector de hijos pero, a diferencia de ellos, que solo seleccionan elementos descendientes DIRECTOS, los selectores de descendientes seleccionan los elementos pertinentes EN CUALQUIER PUNTO de la jerarquía del elemento.
+<li>Selectores de descendientes. 
+<br>Similar al selector de hijos pero, a diferencia de ellos, que solo seleccionan elementos descendientes DIRECTOS, los selectores de descendientes seleccionan los elementos pertinentes EN CUALQUIER PUNTO de la jerarquía del elemento.
 <br>
-Selectores de hermanos adyacentes. Permiten seleccionar un elemento concreto que aparece DIRECTAMENTE DESPUÉS de otro elemento concreto al mismo nivel de la jerarquía del elemento. Por ejemplo si quisiéramos reducir el espacio vertical entre el <'h1'> y el primer <'h2'> pero no afectar al segundo <'h2'> en el código siguiente:
+<li>Selectores de hermanos adyacentes.
+<br> Permiten seleccionar un elemento concreto que aparece DIRECTAMENTE DESPUÉS de otro elemento concreto al mismo nivel de la jerarquía del elemento. Por ejemplo si quisiéramos reducir el espacio vertical entre el <'h1'> y el primer <'h2'> pero no afectar al segundo <'h2'> en el código siguiente:
 <br>
  <br>  <'h1'>Encabezado 1 <'/h1'>
   <br> <'h2'>Encabezado 2 (hermano adyacente) <'/h2'>
@@ -264,16 +273,18 @@ Definiríamos la regla siguiente:
  <br>  }
 
 <br>
-Pseudoclases. Se utilizan para definir estilos, no para los elementos sino para los diversos estados de los elementos:
+<li>Pseudoclases. 
+<br>Se utilizan para definir estilos, no para los elementos sino para los diversos estados de los elementos:
 <br>
 
-<br>:link: El estado normal por defecto de los enlaces. Tal y como se ven por primera vez.
+<br> : 'link': El estado normal por defecto de los enlaces. Tal y como se ven por primera vez.
 <br>:visited: Enlaces que ya se han visitado con el navegador que se está utilizando.
 <br>:focus: Enlaces (o campos de formularios, o cualquier otra cosa) que tienen en ese momento el cursor en su interior.
 <br>:hover: Enlaces que tienen en este momento el puntero del ratón sobre ellos.
 
 <br>
-Pseudoelementos. Como las pseudoclases no afectan a todo el elemento sino que permiten añadir estilos a UNA PARTE CONCRETA del documento. Por ejemplo, el pseudoelemento ::first-line selecciona solo la primera línea del elemento especificado por el selector.
+<li>Pseudoelementos. 
+<br>Como las pseudoclases no afectan a todo el elemento sino que permiten añadir estilos a UNA PARTE CONCRETA del documento. Por ejemplo, el pseudoelemento ::first-line selecciona solo la primera línea del elemento especificado por el selector.
 <br>
    selector::pseudo-elemento { propiedad: valor; }
 <br>

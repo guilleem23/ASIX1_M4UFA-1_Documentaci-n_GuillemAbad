@@ -133,7 +133,7 @@ Una vez hecho esto, iremos a nuestro repositorio de GitHub en la nube y veremos 
 <h2>HTML:</h2>
 Visual Studio Code, se utiliza y/o lo hemos utilizado con HTML. Para empezar a trabajar con este de manera fácil, tendremos que escribir "html:5" y nos desplegará un texto para poder empezar a darle forma a nuestro proyecto. 
 Por ejemplo, podemos ponerle título a este, donde pone <"title">. A continuación, hay unas cosas básicas que debes de saber:
-<br><li>El <'br'> sirve para dejar un espació. Aunque nosotros le demos a enter desde el Visual Studio Code, si no escribimos <"'br'> sin las comillas no dejará un espacio.
+<br><li>El <'br'> sirve para dejar un espació. Aunque nosotros le demos a enter desde el Visual Studio Code, si no escribimos <'br'> sin las comillas no dejará un espacio.
  </li>
 <li>El <'li'>Sirve para hacer una lista mediante puntos como estás viendo ahora mismo leyendo estos puntos.</li>
 <li>Los H1,H2,H3,H4,H5... sirven para hacer títulos, el número más pequeño (1) para títulos más grandes y a medida que incrementas el número se van haciendo más pequeños</li>

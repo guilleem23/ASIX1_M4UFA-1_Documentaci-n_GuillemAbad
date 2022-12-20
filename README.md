@@ -296,7 +296,7 @@ Definiríamos la regla siguiente:
 <h3>Margenes, bordes y relleno en CSS</h3>
 <br>
 <br>
-<img src="imagenes/ccs1.png">
+<img src="/imagenes/ccs1.png">
 Los márgenes, bordes y relleno son características importantes en CSS que se pueden utilizar para controlar el espacio y el diseño de los elementos en una página web.
 <br>
 <br>

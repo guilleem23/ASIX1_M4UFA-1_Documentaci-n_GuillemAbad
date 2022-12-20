@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentación (Guillem Abad ASIX1)</title>
+    
 </head>
 <body>
  <center><h1><u><strong>DOCUMENTACIÓN APUNTES:</strong></u></h1> <align=”middle”>    </center>
@@ -93,10 +93,6 @@ Una vez hecho esto, iremos a nuestro repositorio de GitHub en la nube y veremos 
 
 <br>a) Primero se incluye el texto del link entre corchetes y posteriormente el link entre paréntesis).    
 <br>b) El “título opcional del enlace” es el texto alternativo al pasar el ratón por encima.
-
-<br><li><strong>Imágenes</strong>
-<br> Inline-style: 
-<br>![alt text](https://github.com/img/icon48.png "Título opcional de la imagen")
 
 <br>Reference-style: 
 <br>![alt text][logo]
@@ -296,7 +292,7 @@ Definiríamos la regla siguiente:
 <h3>Margenes, bordes y relleno en CSS</h3>
 <br>
 <br>
-<img src="ccs1.png">
+<img src="model.png">
 Los márgenes, bordes y relleno son características importantes en CSS que se pueden utilizar para controlar el espacio y el diseño de los elementos en una página web.
 <br>
 <br>
@@ -322,8 +318,47 @@ El relleno es el espacio dentro de un elemento, entre el contenido y el borde. S
  <br> padding: 10px;
 <br>}
 <br><br>
-En resumen, podemos ver que:
+En resumen, podemos decir que las propiedades de CSS son las características de los elementos a las que se les puede aplicar un estilo. Algunas propiedades comunes son:
+
+<br><li>color: establece el color del texto
+
+<br><li>font-size: establece el tamaño de la fuente
+
+<br><li>background-color: establece el color de fondo de un elemento
+
+<br><li>width: establece el ancho de un elemento
+
+<br><li>height: establece la altura de un elemento
+
+<br><li>margin: establece el margen alrededor de un elemento
+
+<br><li>padding: establece el espacio entre el contenido de un elemento y sus bordes
+
+<br><li>Herencia: cuando se aplican estilos a un elemento, estos también se heredan por defecto a sus elementos hijos. Esto significa que si se establece el color de texto en rojo en un elemento div, todos los elementos hijos de ese div también tendrán el texto en rojo, a menos que se les apliquen estilos específicos que anulen la herencia.
 <br>
+<br><li>Selectores múltiples: se pueden aplicar estilos a múltiples elementos al mismo tiempo usando selectores múltiples. 
+<br>Por ejemplo:
+<br><br>h1, h2, h3 {
+ <br> color: blue;
+<br>}
+<br>
+<br>
+<li>Clases y ID: las clases y los ID se pueden usar para aplicar estilos a elementos específicos en una página. Las clases se pueden usar en varios elementos de la página, mientras que los ID solo se deben usar en un único elemento. Por ejemplo:
+<br>
+<br>
+<br><'p class="important">Este es un párrafo importante.<'/p>
+<br><'p class="important">Este es otro párrafo importante.<'/p>
+<br><br>
+<br><'div id="header">Este es el encabezado de la página.<'/div>
+<br>
+<br>
+<br>.important {
+<br>  font-weight: bold;
+<br>}
+<br><br>
+<br>#header {
+<br>  background-color: blue;
+<br>}
 
 
 

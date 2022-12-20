@@ -369,22 +369,22 @@ En resumen, podemos decir que las propiedades de CSS son las características de
 
 
 <br>
-<br><li>Margin (margen):
+<br><li>Margin (margen):<br>
 <br> Representan el espacio que la separará de los elementos contiguos. 
 <br>- margin-top (margen superior)
 <br>- margin-right (margen derecho)
 <br>- margin-bottom (margen inferior)
 <br>- margin-left (margen izquierdo)
-<br>
-<li>Border (bordes):
+<br><br>
+<li>Border (bordes):<br>
 <br> Representan el estilo que tendrán los bordes del elemento:
 <br>- border-top
 <br>- border-right
  <br>- border-bottom 
- <br>- border-left
-<br><li>Padding (relleno):
+ <br>- border-left<br>
+<br><li>Padding (relleno):<br>
 <br>Es el espacio entre el borde del elemento y su contenido. 
-<br>
+<br><br>
 Como en todas, se derivan otras 4 propiedades:
 <br>- padding-top
 <br>- padding-right

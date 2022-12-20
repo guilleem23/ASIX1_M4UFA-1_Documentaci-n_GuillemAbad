@@ -11,6 +11,7 @@
  <center><h1><u><strong>DOCUMENTACIÓN APUNTES:</strong></u></h1> <align=”middle”>    </center>
 <H2>GIT HUB:</H2>
 Primero de todo, para poder empezar a trabajar con GitHub y Visual Code tenemos que tener creada en internet una cuenta de GitHub. Seguidamente, vamos a nuestro perfil y le damos a crear un repositorio nuevo. En este, lo ponemos en público o privado dependiendo si queremos que lo vea la gente de internet o solamente la gente que nosotros queramos y <strong>MUY IMPORTANTE</strong> darle a "add a read me file" ya que ahí es donde puede escribir una descripción larga del proyecto que vamos a crear.
+<br><br><img src="github.png" width="550"><br><br>
 <br>
 <br>
 Una vez creado el repositorio, como nosotros queremos trabajar en local (es decir desde nuestro pc y no directamente desde GitHub), tendremos que hacer una copia para subirla a nuestro local. Para hacerlo, vamos a seguir los siguientes pasos:
@@ -128,6 +129,7 @@ Una vez hecho esto, iremos a nuestro repositorio de GitHub en la nube y veremos 
 
 <h2>HTML:</h2>
 Visual Studio Code, se utiliza y/o lo hemos utilizado con HTML. Para empezar a trabajar con este de manera fácil, tendremos que escribir "html:5" y nos desplegará un texto para poder empezar a darle forma a nuestro proyecto. 
+<br><br><img src="html.png" width="550"><br><br>
 Por ejemplo, podemos ponerle título a este, donde pone <"title">. A continuación, hay unas cosas básicas que debes de saber:
 <br><li>El <'br'> sirve para dejar un espació. Aunque nosotros le demos a enter desde el Visual Studio Code, si no escribimos <'br'> sin las comillas no dejará un espacio.
  </li>
@@ -164,7 +166,9 @@ Tablas: el elemento <'table'> se utiliza para crear tablas con filas y columnas.
 <li>Entramos y nos registramos y seguimos los siguientes pasos:</li>
 <ol><li>Después de registrarnos, nos vamos donde pone "icons" y buscamos el icono que más nos guste. Si no queréis pagar, darle a filtrar por "free" para seleccionar los iconos gratuitos. Una vez seleccionado el icono, copiamos al portapapeles lo que pone donde lo de HTML.</li>
 <li>Seguidamente, dentro de nuestro visual studio, introducimos lo anteriormente copiado exactamente donde queramos que se vea. (tiene que ser donde tú quieras pero donde pone "body" y no "head"</li>
-<li>Finalmente, para que se vea, vamos a nuestro perfil, le damos a "kits" y si tenemos un kit lo copiamos al portapapeles toda la url y sino, creamos un kit y hacemos el paso anterior.</li>
+<li>Finalmente, para que se vea, vamos a nuestro perfil, le damos a "kits" y si tenemos un kit lo copiamos al portapapeles toda la url y sino, creamos un kit y hacemos el paso anterior.</li><br><br>
+<img src="fontawesome.png" width="550">
+<br><br>
 <li>Entonces, lo anteriormente copiado al portapapeles, el cuál es el kit code de nuestro proyecto, lo pegamos en el Visual Studio pero <strong>DONDE PONE <'head'></strong>, si no no funcionará. El script este que hemos utilizado siempre es el mismo, por lo cual siempre lo podremos utilizar en nuestros futuros proyectos.</li></ol>
 
 <h2>CCS</H2>
